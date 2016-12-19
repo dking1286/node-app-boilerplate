@@ -25,3 +25,6 @@ Eslint, Flow, Gulp, and Tape setup.
 - The main file should be placed at `src/index.js`. Using `npm run start:dev` or
   `npm run start:prod` (for development or production, respectively) will run
   the file `dist/index.js`, the transpiled version of the main file.
+- This project skeleton is configured to use `tape` to run tests and then
+  format the output using `faucet`. If you wish to use another test runner,
+  please edit the `npm` scripts accordingly.
